@@ -21,7 +21,7 @@
 			<a href="lista_na_ocene.html"> LISTA NA OCENĘ </a> <br/> 
 			<a href="formularz.html"> FORMULARZ </a> <br/> 
 			<a href="formularz_na_ocene_antonina_poniatowska.html"> FORMULARZ NA OCENĘ </a> <br/> 
-		<a href="mapa_odsylaczy.html"> MAPA ODSYŁACZY </a> <br/> 
+		<a href="mapy_odsylaczy.html"> MAPA ODSYŁACZY </a> <br/> 
 	<h3> CSS</h3><br/> 
 	<h3> DOKUMENTY</h3><br/>
 		<a href="doc/2cgrupaI.docx" target="new"> Lista grupy 1 </a> <br />
@@ -31,39 +31,16 @@
 		<a href="https://tsi-pai.cba.pl/" target="new"><img height="50px" weight="50px" src="foty/psi_srceen.png" /> </a> <br/> <br/>
   </div>
   <div style="float:right;width:70%"> 
-	<form>
-	<tr>
-		<td> IMIĘ i NAZWISKO:</td><td> <input type="text" id="nazwisko_i_imie" size="30" maxlenght="40"></td><td>
-		</td></tr> 
-	<tr>
-		<td> ADRES E-MAIL: </td><td> <input type="e-mail" id="email" size="40" maxlenght="40"></td>
-	</tr>
-	<tr>
-		<td> HASŁO: </td><td> <input type="password" id="haslo" size="10" maxlenght="10"></td><td>
-		</td></tr>
-	<fieldset>
-		<legend> PŁEĆ (z etykieta label): </legend> <br>
-		<p><label for="male"> mężczyzna </label>
-			<input type="radio" name="gender" id="male" value="mezczyzna"> <br>
-			<label for="famale"> kobieta </label>
-			<input type="radio" name="gender" id="famale" value="kobieta"> <br> </p>
-	</fieldset>
-	<fieldset>
-		<legend>
-		<p> JĘZYKI, KTÓRYMI WŁADASZ: </p></legend>
-		<p> <input type="checkbox" id="nazwa_jezyki" value="wartosc_angielski" checked="checked"> ANG </p>
-		<p> <input type="checkbox" id="nazwa_jezyki" value="wartosc_niemiecki"> NIE </p>
-		<p> <input type="checkbox" id="nazwa_jezyki" value="wartosc_chinski"> CHN </p>
-		
-	</fieldset>
-	<p><select name="nazwa_owoce" size="5" multiple="multiple">
-		<optgroup label="ULUBIONE OWOCE">
-		<option value="truskawki"> TRUSKAWKI
-		</option><option value="banany"> BANANY
-		</option><option value="maliny" selected=""> MALINY </option></optgroup> </select></p>
-	</form>
-</div>
-<div style="background-color:rgb(53, 88, 97); clear:both;"><center> &copy; A.P, November 2024
+	<h2> MAPA ŚWIATA</h2>
+    <img src="foty/mapa.jpg" width="400px" height="200px" usemap="#mapa_swiata"/> 
+    <map name="mapa_swiata">
+        <area shape="rect" coords="75,45,100,80" href="https://ameryka.pl" alt="Ametyka Pł" target="new"/>
+        <area shape="circle" coords="220,120,18" href="https://pl.wikipedia.org/wiki/Afryka" alt="Afryka" target="new"/>
+        <area shape="circle" coords="280,70,27" href="https://pl.wikipedia.org/wiki/Azja" alt="Ametyka Pł" target="new"/>
+    </map>
+
+  </div>
+  <div style="background-color:rgb(53, 88, 97); clear:both;"><center> &copy; A.P, November 2024
 </center> </div>
 </body>
 </html>
