@@ -1,0 +1,49 @@
+p:first-line{
+	color: purple;
+	background-color: aqua;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+div#nazwa p:first-letter{
+	padding: 10px;
+	border: 1px solid pink;
+	background-color: yellow;
+	color: fuchsia; 
+	font-size:  1000%;
+	line-height: .8em;
+	margin-right: 10px;
+	float: left;
+}
+
+#element {
+	border: 2px solid red;
+	padding: 10px;
+}
+
+#element:before {
+	content: '^_^'; 
+	border: 1px solid blue;
+	padding: 10px;
+	border-radius: 50%;
+	color: white;
+	background-color: aqua; 
+	margin-left: 5px;	
+}
+
+#element:after {
+	content: 'DAMY RADĘ TO ZROBIĆ';
+	border: 1px solid blue;
+	padding: 10px;
+	background-color: lime; 
+}
+
+::marker {
+	color: red;
+	font-size: 23px 
+}
+
+::selection {
+	color: red;
+	background-color: yellow;
+}

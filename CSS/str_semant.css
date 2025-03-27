@@ -1,0 +1,88 @@
+*{ box-sizing: border-box;}
+
+body { 
+    background: silver;
+    padding: 20px;
+}
+
+header{
+    border: 1px solid gray;
+    width: 100%;
+    background: white;
+    padding: 20px;
+}
+
+nav {
+    border: 1px solid grey;
+    width: 50%;
+    padding: 20px;
+    background: silver;
+}
+
+main{
+    float: left;
+    width: 60%;
+    margin-top: 2%;
+    background: white;
+    margin-bottom: 2%; 
+    overflow: auto;
+}
+
+section {
+    border: 1px solid yellow;
+    margin-bottom: 2%; 
+    background: white;
+}
+
+article {
+    border: 1px solid blue; 
+} 
+
+aside{
+    padding-left: 2%;
+    margin-top: 2%;
+    width: 38%;
+    float: right;
+}
+
+footer {
+    border: 1px solid green; 
+    width: 100%;
+    clear:both;
+    padding: 20px;
+    background: white;
+}
+
+img { 
+    float: left;
+}
+
+a:link, a:visited{
+    border: 1px dotted rgb(44, 78, 105);
+    background: rgb(248, 238, 227);
+    color: rgb(32, 104, 138);
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+a:hover, a:active{
+    border: 1px dotted rgb(59, 102, 138);
+    background: rgb(248, 238, 227);
+    color: rgb(39, 131, 173);
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+ul, li{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+ul li {
+    display: inline;
+    white-space: nowrap;
+}

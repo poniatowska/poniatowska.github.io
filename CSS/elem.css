@@ -1,0 +1,19 @@
+div span {
+     color: blue;
+	 font-size: 20pt;
+        }
+
+h3>ins {
+		color: green; 
+		text-decoration: underline;
+} 
+
+div+i{ 
+	color: red;
+	font-size: 18pt;
+}
+
+h4~i {
+	color: fuchsia;
+	font-size: 18pt;
+}

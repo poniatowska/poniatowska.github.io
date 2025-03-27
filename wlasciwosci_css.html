@@ -2,23 +2,287 @@
 <html lang="pl-PL">
 	<meta charset=UTF-8/>
 	<meta name="viewpoint" content="width=device-width,initial-scale=1.0" />
-<head>
-	<title> Właściwości CSS </title>
-	<style type="text/css"> 
+	<head>
+		<title> Właściwości CSS </title>
+		<style type="text/css"> 
 		p {
 			font-family:"Courier New";
-			font-style: italic;
+			font-style:italic;
 			font-weight: 500;
 			font-size: 20px;
+			color:maroon; 
 		}
+		
+		h3 {
+			color:red;
+		}
+		
+		blockquote { 
+			font-family:fantasy;
+			font-style:italic;
+			font-weight:bolder;
+			font-size:30px;
+			font-variant:small-caps;
+			color:teal;
+		}
+			
+		em { 
+			font-family:"Times New Roman";
+			font-size: 20px;
+			font-weight: 700;
+			color: rgb(90, 19, 46);
+		}
+			
+		h1 {
+			text-decoration:overline;
+			line-height:100%;
+			color:green;
+			text-transform:lowercase;
+			text-indent: 20px;
+			letter-spacing: 2px;
+			text-align:center;
+			}
+
+		h4 { 
+			color: purple;
+			text-decoration: line-through;
+			line-height: 2cm;
+			font-variant:small-caps;
+			text-align: right;
+			letter-spacing: 5px;
+			text-indent: 50px;
+		}
+		
+		body { 
+			background-image: url(foty/gekon.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			background-position: center right ;
+		}
+		
+		div#obramowanie1 {
+			border-style: dashed;
+			border-color: aqua;
+			border-width: medium;
+			width: 40%;
+		}
+		
+		h2.zadanie2 {
+			border-style: dashed;
+			border-color: aqua;
+			border-width: medium;
+			background-color: yellow;
+		}
+		
+		h3.zadanie1 {
+		color: silver;
+		background-color: black;
+		border-color: yellow;
+		border-style: ridge;	
+		font-variant: small-caps;
+		text-align: right; 
+		} 
+		
+		h3#zadanie2 {
+		text-decoration: overline;
+		letter-spacing: 5pt;
+		text-align: center;
+		color: white;
+		background-color: fuchsia;
+		border-width: 3px;
+		border-style: dotted;
+		padding: 20px;
+		width: 70%;
+		}
+		
+		h3#zadanie2_1 {
+		text-decoration: overline;
+		letter-spacing: 5pt;
+		text-align: center;
+		color: white;
+		border-color: navy;
+		background-color: fuchsia;
+		border-width: 3px;
+		border-style: dotted;
+		padding: 20px;
+		width: 70%;
+		background-clip:content-box;
+		}
+		
+		p#zadanie5 {
+		color: white;
+		border-style: groove;
+		background-color: lightpink;
+		text-decoration: underline;
+		text-align: right;
+		border-width: 10px;
+		font-variant: small-caps;
+		border-color: purple;
+		}
+		
+		h2#ramka1{
+		border-image: url(foty/papeteria.png) 50 stretch;
+		background-color: white;
+		color: black;
+		height: 200px;
+		padding: 10px;
+		width: 70%;
+		border-width: 30px;
+		border-style: solid; 
+		background-size: cover;
+		background-clip: padding-box;
+		background-repeat: no-repeat;
+		}
+
+		h2#ramka2{
+			border-image: url(foty/papeteria.png) 50 round;
+			background-color: white;
+			color: black;
+			height: 200px;
+			padding: 10px;
+			width: 70%;
+			border-width: 30px;
+			border-style: solid; 
+			background-size: cover;
+			background-clip: padding-box;
+			background-repeat: no-repeat;
+			}
+
+			h2#ramka3 
+			{border:50px solid;
+			border-image: url(foty/girl.gif) 200 round;
+			padding: 5px;
+			width:33%;
+			font-size:14px;
+			background: none;
+			text-align:left;
+			color:black;
+			}
+			
+			h2#ramka3A 
+			{border:50px solid;
+			border-image: url(foty/girl.gif) 180 round;
+			padding: 5px;
+			width:33%;
+			font-size:14px;
+			background: none;
+			text-align:left;
+			color:black;
+			}
+			
+			h2#ramka3B {
+			border:50px solid;
+			border-image: url(foty/girl.gif) 100 round;
+			padding: 5px;
+			width:33%;
+			font-size:14px;
+			background: none;
+			text-align:left;
+			color:black ;
+			}
+			
+	
+		
+		a#zada1:link,a#zada1:visited{
+		color: black;
+		text-decoration: none;
+		background-color: fuchsia;
+		border-style: solid;
+		border-radius: 5px;
+		}
+		
+		a#zada1:active {
+		color: silver;
+		text-decoration: none;
+		background-color: black;
+		border-style: dashed;
+		border-radius: 5px;
+		} 
+		
+		a#zada1:hover { 
+		color: yellow;
+		text-decoration: none;
+		background-color: green;
+		border-style: dotted;
+		border-radius: 5px;
+		}
+		
+		
+		
+		
+		a.zad2:link,a.zad2:visited{
+		color: black;
+		text-decoration: none;
+		background-color: yellow;
+		border-style: double;
+		background-clip: content-box;
+		border-radius: 5px;
+		padding: 5px;
+		
+		}
+		
+		a.zad2:hover{
+		color: cyan;
+		text-decoration: none;
+		background-color: green;
+		border-style: outset;
+		background-clip: content-box
+		border-radius: 5px;
+		}
+		
+		a.zad2:active { 
+		color: grey;
+		text-decoration: none;
+		background-color: red;
+		border-style: dotted;
+		border-radius: 5px;
+		}
+		
+		ol.punkty {
+		list-style-type: circle;
+		color: cyan;
+		image-position: outside;
+		font-family: Arial;
+		} 
+		
+		ol.numer { 
+		
+		list-style-type: upper-alpha;
+		list-style-position: inside;
+		color: purple;
+		font-family: "Times New Roman";
+		}
+		
+		ol.gif { 
+		list-style-position: inside;
+		list-style-image: url(foty/girl_resize.gif);
+		}
+		
+		.gif2{
+		list-style-image: url(foty/boo_gif.gif);
+		} 
+		
+		.gif3{
+		list-style-image: url(foty/girl.gif);
+		} 
+		
+		.gif4{
+		list-style-image: url(foty/boo_rezise.gif);
+		} 
+		
+		table{
+			cursor: crosshair;
+			}
+		
+		
 	</style>
-</head>
-<body>
-	<div style="background-color:rgb(98, 160, 98);"> 
-		<h1> <center> Projektowanie Stron Internetowych - Antonina Poniatowska </center></h1>
-	  </div>
-	  <div style="float:left;width:30%;height:550px;background-color:rgb(167, 101, 112);"> 
-		<h3> HTML</h3>
+	</head>
+	<body>
+		<div style="background-color:rgb(98, 160, 98);"> 
+			<h1> <center> Projektowanie Stron Internetowych - Antonina Poniatowska </center></h1>
+		  </div>
+		  <div style="float:left;width:30%;height:550px;background-color:rgb(167, 101, 112);"> 
+			<h3> HTML</h3>
 			<a href="index.html"> STRONA GŁÓWNA </a> <br/> 
 			<a href="kolory.html"> KOLORY </a> <br/>
 			<a href="nauczyciele.html"> NAUCZYCIELE </a> <br/> 
@@ -33,19 +297,121 @@
 			<a href="obrazy_i_multimedia.html"> MULTIMEDIA </a> <br/> 
 			<a href="canvas.html"> CANVAS </a> <br/> 
 	<h3> CSS</h3><br/> 
-		<a href="wlasciwosci_css.html"> MULTIMEDIA </a> <br/> 
-	<h3> DOKUMENTY</h3><br/>
-		<a href="doc/2cgrupaI.docx" target="new"> Lista grupy 1 </a> <br />
-		<a href="doc/wydatki2cgrI.xlsx" target="new"> Wydatki gr1 </a> <br /> 
-	<h3> LINKI</h3><br/> 
-		<a href="http://www.google.com" target="new"><img height="50px" weight="50px" src="foty/google.jpg" /> </a> <br/> <br/>
-		<a href="https://tsi-pai.cba.pl/" target="new"><img height="50px" weight="50px" src="foty/psi_srceen.png" /> </a> <br/> <br/>
-  </div>
-  <div style="float:right;width:70%"> 
-	<p> Formatowanie akapitu p: krój czcionki - Courier New, styl - pochylenie, grubość-500, rozmiar-20px; 
-	</p>
-  </div>
-  <div style="background-color:rgb(53, 88, 97); clear:both;"><center> &copy; A.P, November 2024
-</center> </div>
-</body>
+	<a href="wlasciwosci_css.html"> WŁAŚCIWOŚCI CSS</a> <br/> 
+	<a href="identyfikator.html"> IDENTYFIKATOR</a> <br/> 
+	<a href="poniatowska_klasa_ide.html">KLASY I IDENTYFIKATORY NA OCENĘ </a> <br/>
+	<a href="tabela_css.html">TABELA CSS </a> <br/>
+	<a href="selektor_atryb.html">SELEKTORY ATRYBUTÓW </a> <br/>
+	<a href="selektor_elem.html"> SELEKTORY ELEMENTÓW</a> <br/>
+	<a href="pseudoelementy.html">PSEUDOELEMENTY </a> <br/>
+	<a href="pseudo_poniatowska.html"> PSEUDOELEMENTY NA OCENĘ</a> <br/>
+	<a href="str_semant.html">STRONA SEMANTYCZNA </a> <br/>
+		<h3> DOKUMENTY</h3><br/>
+			<a href="doc/2cgrupaI.docx" target="new"> Lista grupy 1 </a> <br />
+			<a href="doc/wydatki2cgrI.xlsx" target="new"> Wydatki gr1 </a> <br /> 
+		<h3> LINKI</h3><br/> 
+			<a href="http://www.google.com" target="new"><img height="50px" weight="50px" src="foty/google.jpg" /> </a> <br/> <br/>
+			<a href="https://tsi-pai.cba.pl/" target="new"><img height="50px" weight="50px" src="foty/psi_srceen.png" /> </a> <br/> <br/>
+	  </div>
+		<div style="float:right;width:70%">
+			<h3> ZADANIE I </h3>
+			<p> Formatowanie akapitu p: krój czcionki - Courier New, styl - pochylenie,
+				grupość-500, rozmiar-20px;
+			</p>
+			<h3> ZADANIE IA </h3>
+			<blockquote> Formatowanie blockquote: krój czcionki-fantasy, styl-pochylenie,
+				grubośc-bolder, rozmiar-30px, typ czcionki-kapitaliki,
+				kolor-teal</blockquote>
+
+			<h3> ZADANIE IB </h3>
+			<em> Formatowanie wyróżnionego tekstu - kolor-pink, krój czcionki- Times New
+				Roman, rozmiar-20px, grubośc-700</em>
+
+			<hr />
+			<h3> ZADANIE II - TEKST</h3>
+			<h1> Formatowanie tytułu<br/> h1:dekoracja tekstu – nakreślenie,odstępy między
+				wierszami – 100%,wyśrodkowanie,kolor tekstu – zielony,zamiana tekstu - małe
+				litery wcięcie wiersza - 20px;odstępy miedzy znakami: 2px </h1>
+			<h3> ZADANIE II A </h3>
+			<h4> Formatowanie tytułu h4: <br/>
+				kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,<br/>
+				tekst do prawej strony,  zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px; <br/>
+				odstępy miedzy znakami: 5px:</h4>
+				
+			<div id="obramowanie1"> <h3> ZADANIE IV - OBRAMOWANIE </h3> </div> 
+			<h2 class="zadanie2"> zadanie IV – OBRAMOWANIE:
+			Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, tło żółte </h2> 
+			<h3 class="zadanie1"> kolor tekstu: srebryny, czarne tło, żółte obramowanie, styl obramowania:ridge kapitaliki, tekt ustawiony: do prawej, brak dekoracji</h3> 
+			<h3 id="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70% </h3> 
+			<h3 id="zadanie2_1">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70% </h3> 
+			<p id="zadanie5"> tekst wyśrodkowany, kapitaliki, kolor tekstu biały, podkreślenie, szerokośc 50%, obramowanie 10px, przesunięcie na prawą stronę, styl groove, tło light pink, kolor obramowania purple </p> 
+			<h2 id="ramka1"> zadanie IV – OBRAMOWANIE: Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1" TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;border-image: url(folder/nazwa.jpg) 50 stretch; OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR. </h2> 
+			<h2 id="ramka2"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka2"
+				TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+				border-image: url(folder/nazwa.jpg) 50 round;
+				
+				OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR. </h2>
+			<h2 id="ramka3"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3"
+				TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+				border-image: url(foty/girl.gif) 200 round;</h2>
+
+			<h2 id="ramka3A"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3A"
+				TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+				border-image: url(foty/girl.gif) 180 round;</h2>
+			<h2 id="ramka3B"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3B"
+				TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+				border-image: url(foty/girl.gif) 100 round;</h2>
+			
+			<a id="zada1" href="https://www.onet.pl/" target="new"> ONET </a> <br/> 
+			<a id="zada1" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> <br/> 
+			<a id="zada1"href="https://tsi-pai.cba.pl/" target="new"> STRONA TSI - PAI </a> <br/> 
+			<br/> 
+			<br/> 
+			<br/> 
+			<a class="zad2" href="https://www.google.com/" target="new"> GOOGLE </a> <br/> 
+			<a class="zad2" href="https://zspm.pl/" target="new"> ZSPM </a> <br/> 
+			<a class="zad2" href="https://tsi-pai.cba.pl/" target="new"> STRONA TSI - PAI </a> <br/> 
+			 <h3> ZADANIE VI - LISTY: </h3> 
+			 <ol class="punkty"> PIĘĆ ZALET PRZEDMIOTU PSI 
+				<li> ciekawy przedmiot</li> 
+				<li> po teori jest praktyka </li> 
+				<li> od razu widać winiki </li> 
+				<li> nauka języków HTML i CSS </li> 
+				<li> zdobycie nowych umiejętności </li> 
+			 </ol> 
+			 <br/> 
+			 <br/> 
+			 <br/> 
+			 <ol class="numer"> TRZY WADY PRZEDMIOTU PSI 
+				<li> dużo materiału do nauki </li> 
+				<li> trzeba być na lekcjach by nie mieć zaległości </li> 
+				<li> nie ma więcej minusów </li> 
+			 </ol> 
+			 <br/> 
+			 <br/> 
+			 <br/> 
+			 <ol class="gif"> CO MUSZĘ ZROBIĆ PRZED ŚWIĘTAMI BOŻEGO NARODZENIA 
+			 <li class="gif3"> KUPIĆ PREZENTY </li> 
+			 <li class="gif2"> KUPIĆ KARPIA </li> 
+			 <li class="gif4"> KUPIĆ OPŁATKI </li> 
+			 <li> POSPRZĄTAĆ </li> 
+			 <li> UGOTOWAĆ 12 DAŃ </li> 
+			</ol>  
+			 <br/> 
+			
+			<table border="2px"> 
+			<tr> 
+				<th> 1 </th> 
+				<th> 2 </th> 
+			</tr> 
+			</table> 
+		</div>
+		<div style="background-color:rgb(53, 88, 97); clear:both;"><center> &copy;
+				A.P, November 2024
+			</center> </div>
+	</body>
 </html>

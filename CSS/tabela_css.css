@@ -1,0 +1,146 @@
+table.zero { 
+border: 1px solid blue; 
+text-align: left; 
+border-collapse: collapse;
+width: 30%;
+table-layout: fixed; 
+} 
+
+td.zero { 
+border: 1px solid blue; 
+text-align: left; 
+border-collapse: collapse;
+width: 30%;
+table-layout: fixed; 
+} 
+
+table.one {
+	width: 80%;
+}
+
+th.one { 
+	border: 3px solid red;
+	background-color: blue; 
+	padding: 10px; 
+	text-transform: uppercase; 
+	border-collapse: collapse;
+}
+
+
+td.one {
+	border-collapse: collapse;
+	border: 2px solid green;
+	padding: 10px; 
+	background-color: yellow; 
+}
+	
+th.dwa{
+	padding: 8px;
+	border-top: 1px solid aqua;
+}
+
+td.dwa{
+	padding: 8px;
+	border-top: 1px solid aqua;
+}
+
+tr.dwa:hover{ 
+	background-color: aqua; 
+} 
+
+th.trzy{
+	padding: 8px;
+}
+
+td.trzy{
+	padding: 8px;
+}
+
+tr.trzy:nth-child(even):hover{ 
+	background-color: purple; 
+} 
+tr.trzy:nth-child(odd):hover{ 
+	background-color: grey; 
+} 
+
+td.trz:nth-child(odd):hover{ 
+	background-color: purple; 
+} 
+td.trz:nth-child(even):hover{ 
+	background-color: grey; 
+} 
+
+th.trz:nth-child(odd):hover{ 
+	background-color: yellow; 
+} 
+th.trz:nth-child(even):hover{ 
+	background-color: aqua; 
+} 
+
+td.trz, th.trz {
+	border-bottom: 2px dotted red;
+	padding: 8px;	
+}
+
+table.cztery {
+	border: 1px solid black;
+	width: 50%; 
+} 
+
+th.cztery {
+	border-collapse: collapse;
+	color: red;
+	background-color: yellow; 
+} 
+
+table.piec {
+	width: 50%; 
+} 
+
+th.piec {
+	border-collapse: collapse;
+	color: red;
+	background-color: yellow; 
+	border: 1px solid black;
+} 
+
+td.pink{
+	border: 1px solid black; 
+	empty-cells: show; 
+	border-collapse: collapse;
+}
+
+th.pink{
+		color: fuchsia; 
+		background-color: lightpink; 
+		border: 1px ridge white;
+		border-collapse: collapse;
+}
+
+caption.blue{
+	caption-side: top;
+	background-color: black;
+	color: white;
+	border: 1px solid cyan;
+	text-align: left;
+} 
+
+th.blue{
+	background-color: cyan; 
+	color: navy;
+	border: 1px solid black;
+} 
+
+td.blue{
+background-color: black;
+color: white;
+border: 1px solid cyan; 	
+} 
+
+td.navy{
+	background-color: navy; 
+	border: 1px solid red;
+	color: white; 
+} 
+
+th.navy[

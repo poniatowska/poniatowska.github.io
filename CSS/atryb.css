@@ -1,0 +1,24 @@
+p.zad1[align] { color: red; font-size: 16pt; } 
+	.zad1[align] { color: red; font-size: 16pt; } 
+	
+p.zad2[align="right"] { color: grey; font-size: 20pt; } 
+	.zad2[align="right"] { color: grey; font-size: 20pt; } 
+	
+div.zad3[title~="opis"] {color: red; 
+							text-decoration: underline; 
+							border-style: dotted;
+							background-color: white;
+							font-size: 30pt;
+							}
+			
+			
+
+p.zad3[title~="opis"] {color: red; 
+							text-decoration: underline; 
+							border-style: dotted;
+							background-color: white;
+							font-size: 30pt;
+							}
+							
+
+h3.zad3[title~="opis"] {color: red; text-decoration: underline; border-style: dotted; background-color: white; font-size: 30pt;}
